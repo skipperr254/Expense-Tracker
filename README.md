@@ -1,4 +1,3 @@
-```markdown
 # Expense Tracker Project
 
 Welcome to the Expense Tracker project! This application is designed to help you efficiently manage your expenses. It consists of a Django-based backend server and a React-based frontend. Here, you'll find everything you need to get started, set up the project, and contribute to its development.
@@ -120,4 +119,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to reach out to us if you have any questions or need assistance with the project. Happy coding!
-```
