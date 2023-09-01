@@ -1,0 +1,15 @@
+{% extends "authentication/base.html" %}
+
+{% block content %}
+    <h2>Welcome Back</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <button>
+            Login
+        </button>
+    </form>
+    <p>
+        Don't have an account? <a href={% url 'register' %}>Sign Up</a>
+    </p>
+{% endblock content %}
